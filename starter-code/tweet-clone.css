@@ -1,0 +1,93 @@
+body {
+   font-family: helvetica;
+   background-color: rgb(244, 248, 249);
+ }
+
+ .container {
+   background-color: rgb(255, 255, 255);
+   border: rgb(225, 232, 237);
+   width: 1000px;
+   height: 200px;
+   padding: 50px;
+   margin: 100px;
+   border: 2px solid rgb(225, 232, 237);
+   border-radius: 30px;
+ }
+
+ .jack-profile {
+   margin-left: 10px;
+}
+
+ .jack-name { /*include emoji name and check mark*/
+   color: rgb(0, 0, 0);
+   font-size: 30px;
+   margin-left: 100px;
+   position: relative;
+   top: -70px;
+ }
+
+ .jack-picture {
+   height: 70px;
+   width: 70px;
+   position: relative;
+   top: 0px;
+ }
+
+ .jack-account {
+   color: rgb(104, 109, 129);
+   margin-left: 100px;
+   position: relative;
+   font-size: 20px;
+   top: -60px;
+ }
+
+ .text {
+   color: rgb(0, 0, 0);
+   font-size: 22px;
+   line-height: 5;
+   margin-left: 10px;
+ }
+
+ .date {
+   color: rgb(101, 116, 127);
+   font-size: 20px;
+   line-height: 5;
+   margin-left: 10px;
+   position: relative;
+   top: -70px;
+ }
+
+ .follow {
+   color: rgb(85, 172, 238);
+   border: 2px solid rgb(85, 172, 238);
+   border-radius: 10px;
+   width: 160px;
+   height: 50px;
+   margin-top: -130px;
+   margin-left: 800px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .retweet {
+   height: 20px;
+   margin-left: 20px;
+ }
+
+ .reply {
+   height: 20px;
+ }
+
+ .favorite {
+   height: 20px;
+   width: 20px;
+   margin-left: 20px;
+ }
+
+ .bottom-text {
+   color: rgb(105, 120, 130);
+   margin-left: 10px;
+   position: relative;
+   top: -80px;
+ }
